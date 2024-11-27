@@ -4,7 +4,7 @@ const { execSync } = require("child_process");
 const path = "./Lavalink.jar";
 
 // Always pull latest v3
-const lljar = "https://cdn.darrennathanael.com/jars/Lavalink.jar";
+const lljar = "https://github.com/lavalink-devs/Lavalink/releases/download/4.0.8/Lavalink.jar";
 
 const start = () => {
      const download = stream(lljar).pipe(createWriteStream('Lavalink.jar'));
